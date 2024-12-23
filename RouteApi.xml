@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BoatNavigation-RouteService.API</name>
+    </assembly>
+    <members>
+        <member name="T:BoatNavigation_RouteService.API.Controllers.RoutesController">
+            <summary>
+            Контроллер управления автономными маршрутами
+            </summary>
+        </member>
+        <member name="M:BoatNavigation_RouteService.API.Controllers.RoutesController.GetRoutes">
+            <summary>
+            Получение всех маршуртов
+            </summary>
+            <returns>Список маршрутов</returns>
+        </member>
+        <member name="M:BoatNavigation_RouteService.API.Controllers.RoutesController.GetRoute(System.Guid)">
+            <summary>
+            Получение маршрута по id
+            </summary>
+            <param name="id">Id маршрута</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
