@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoatNavigation-RouteService.Domain", "BoatNavigation-RouteService.Domain\BoatNavigation-RouteService.Domain.csproj", "{4A827EEB-A474-4777-957D-EF2FD28B4340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoatNavigation-RouteService.API", "BoatNavigation-RouteService.API\BoatNavigation-RouteService.API.csproj", "{463467D3-B773-4DDA-9B72-586899321B66}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A827EEB-A474-4777-957D-EF2FD28B4340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A827EEB-A474-4777-957D-EF2FD28B4340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A827EEB-A474-4777-957D-EF2FD28B4340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A827EEB-A474-4777-957D-EF2FD28B4340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463467D3-B773-4DDA-9B72-586899321B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463467D3-B773-4DDA-9B72-586899321B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463467D3-B773-4DDA-9B72-586899321B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463467D3-B773-4DDA-9B72-586899321B66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
